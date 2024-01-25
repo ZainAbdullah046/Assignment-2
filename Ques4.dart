@@ -5,7 +5,7 @@ void main() {
       numbers.reduce((value, element) => value < element ? value : element);
   int largest =
       numbers.reduce((value, element) => value > element ? value : element);
-      
+
   print("Smallest number of the list is : ${smallest}");
   print("Largest number  of the list is : ${largest}");
 
