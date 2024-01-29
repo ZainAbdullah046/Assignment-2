@@ -1,11 +1,11 @@
 List<int> getUniqueElements(List<int> originalList) {
   List<int> uniqueList = [];
-  Set<int> seen = Set<int>();
+  Set<int> Check = Set<int>();
 
   for (int element in originalList) {
-    if (!seen.contains(element)) {
+    if (!Check.contains(element)) {
       uniqueList.add(element);
-      seen.add(element);
+      Check.add(element);
     }
   }
 
